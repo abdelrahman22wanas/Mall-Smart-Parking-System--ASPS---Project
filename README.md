@@ -14,8 +14,4 @@ This repository contains the Verilog source files for the parking sensor system 
 - `seven_seg_encoder.v` - seven-segment display encoder
 - `timestamp_buffer.v` - timestamp storage/buffer
 - `updown_counter.v` - vehicle count up/down logic
-## Notes
 
-Use this section to record any differences you find.
-
-- (add notes here)
