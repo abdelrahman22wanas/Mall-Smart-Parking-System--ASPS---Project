@@ -14,19 +14,6 @@ This repository contains the Verilog source files for the parking sensor system 
 - `seven_seg_encoder.v` - seven-segment display encoder
 - `timestamp_buffer.v` - timestamp storage/buffer
 - `updown_counter.v` - vehicle count up/down logic
-
-## Compare With Reference Repo
-
-Reference:
-
-- https://github.com/Abdelrahmanezz005/parking-sensor-system.git
-
-After you create your repo and push, run this command to compare:
-
-```powershell
-git remote add reference https://github.com/Abdelrahmanezz005/parking-sensor-system.git
-git fetch reference
-git diff --name-status reference/main -- .
 ```
 
 For full content differences:
