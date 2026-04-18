@@ -1,0 +1,12 @@
+# Documentation
+CODE_SECTION_EXPLANATION.md
+
+# Simulation artifacts
+*.vcd
+*.log
+
+# IDE and build artifacts
+.idea/
+*.swp
+*.swo
+*~
