@@ -1,0 +1,210 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/ARCH_PROJ
+vasps_tb
+Z1 !s110 1777801982
+!i10b 1
+!s100 T6ikN[V>CNg><KWYo`0c;1
+IIDZHXS_47FlOeVDU:=LM50
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1776461256
+8asps_tb.v
+Fasps_tb.v
+L0 11
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1777801982.000000
+Z6 !s107 seven_seg_encoder.v|cost_calculator.v|timestamp_buffer.v|global_clock.v|updown_counter.v|exit_fsm.v|entry_fsm.v|debounce_edge.v|asps_top.v|asps_tb.v|
+Z7 !s90 asps_tb.v|
+!i113 1
+Z8 tCvgOpt 0
+vasps_top
+R1
+!i10b 1
+!s100 ?Uc`njg8ab_DCfEJWoi1e2
+IhRZMFCSb`mH5a[Bl5bJKk3
+R2
+R0
+Z9 w1776461270
+8asps_top.v
+Fasps_top.v
+L0 19
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vcost_calculator
+R1
+!i10b 1
+!s100 _FfSfzbni5Rgc5@4aOo1`3
+I_T1>>GJODno^iNR^BE^BZ2
+R2
+R0
+R3
+8cost_calculator.v
+Fcost_calculator.v
+L0 8
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vdebounce_edge
+R1
+!i10b 1
+!s100 6OFb7;5:@ej5`C760e@FQ1
+If]KD]7mDCbheTd5h@KXhJ3
+R2
+R0
+w1777801684
+8debounce_edge.v
+Fdebounce_edge.v
+L0 9
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+ventry_fsm
+R1
+!i10b 1
+!s100 `3dgDKQbB[ID79g=_:;^;0
+IbeR[6gEWn67_lSbzPj^VJ1
+R2
+R0
+R3
+8entry_fsm.v
+Fentry_fsm.v
+L0 8
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vexit_fsm
+R1
+!i10b 1
+!s100 R1hQ6o>JdR_@ZiX>2`eWB2
+IJh_>9@250Ql670K9mPd[b3
+R2
+R0
+R3
+8exit_fsm.v
+Fexit_fsm.v
+L0 8
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vglobal_clock
+R1
+!i10b 1
+!s100 Lf32^z79=8b]z>9inBcSD1
+I_H_Hf[>AGC83@<PhGGzaL0
+R2
+R0
+R3
+8global_clock.v
+Fglobal_clock.v
+L0 8
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vseven_seg_encoder
+R1
+!i10b 1
+!s100 f<5gngQQ3;BUE4zno6bF`0
+IRiSSc_W>Yczg?Zb3CmTfR0
+R2
+R0
+R3
+8seven_seg_encoder.v
+Fseven_seg_encoder.v
+L0 8
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vtimestamp_buffer
+R1
+!i10b 1
+!s100 o<VTYUU<<@hL8VXn3CA@X3
+IUB;JOPS0T8l_A8KKkh^nX0
+R2
+R0
+R9
+8timestamp_buffer.v
+Ftimestamp_buffer.v
+L0 9
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vupdown_counter
+R1
+!i10b 1
+!s100 foSHDP8>:^5Nc8HTZBW^>1
+I=1D9H?:N3Cj<m`_6Yf7Xl2
+R2
+R0
+R3
+8updown_counter.v
+Fupdown_counter.v
+L0 7
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8

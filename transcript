@@ -1,0 +1,52 @@
+# vsim -c asps_tb -do "run -all; quit -f" 
+# Start time: 11:53:03 on May 03,2026
+# Loading work.asps_tb
+# Loading work.asps_top
+# Loading work.debounce_edge
+# Loading work.entry_fsm
+# Loading work.exit_fsm
+# Loading work.updown_counter
+# Loading work.global_clock
+# Loading work.timestamp_buffer
+# Loading work.cost_calculator
+# Loading work.seven_seg_encoder
+# ** Warning: (vsim-3015) asps_top.v(137): [PCDPC] - Port size (4) does not match connection size (32) for port 'digit'. The port definition is at: seven_seg_encoder.v(9).
+#    Time: 0 ps  Iteration: 0  Instance: /asps_tb/uut/u_seg_cost File: seven_seg_encoder.v
+# run -all
+# PASS [TC1-Ccount] @ 46000
+# PASS [TC1-CCost] @ 46000
+# PASS [TC1-empty] @ 46000
+# PASS [TC1-full] @ 46000
+# PASS [TC2-Ccount] @ 305000
+# PASS [TC2-empty] @ 305000
+# PASS [TC2-full] @ 305000
+# PASS [TC3-Ccount] @ 565000
+# PASS [TC4-Ccount] @ 825000
+# PASS [TC4-full] @ 825000
+# PASS [TC5-no-overflow] @ 1085000
+# PASS [TC5-alarm-cleared] @ 1085000
+# PASS [TC6-Ccount] @ 1345000
+# PASS [TC6-CCost] CCost=114 @ 1345000
+# PASS [TC7-empty] @ 1865000
+# PASS [TC7-empty-flag] @ 1865000
+# PASS [TC7-no-underflow] @ 2125000
+# PASS [TC9-start-empty] @ 2125000
+# PASS [TC9-after-entry] @ 2385000
+# PASS [TC9-not-empty] @ 2385000
+# PASS [TC9-after-exit] @ 2645000
+# PASS [TC9-empty-again] @ 2645000
+# PASS [TC10-before-rst] @ 3165000
+# PASS [TC10-after-rst] @ 3196000
+# PASS [TC10-cost-cleared] @ 3196000
+# PASS [TC10-empty-after-rst] @ 3196000
+# PASS [TC11-no-initial-cost] @ 3206000
+# PASS [TC13-full] @ 3985000
+# PASS [TC13-full-cleared] @ 4245000
+# PASS [TC13-Ccount] @ 4245000
+# PASS [TC14-debounce-single-count] @ 4585000
+# 
+# ===== Simulation complete =====
+# ** Note: $finish    : asps_tb.v(208)
+#    Time: 4635 ns  Iteration: 0  Instance: /asps_tb
+# End time: 11:53:03 on May 03,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1

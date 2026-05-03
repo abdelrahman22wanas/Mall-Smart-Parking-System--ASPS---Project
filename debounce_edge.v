@@ -20,8 +20,8 @@ always @(posedge clk) begin
     else     begin ff1 <= raw_in; ff2 <= ff1; end
 end
 
-// --- Debounce counter (4-bit ~16 cycles stable) ---
-reg [3:0] db_cnt;
+// --- Debounce counter (3-bit ~4 cycles stable) ---
+reg [2:0] db_cnt;
 reg       db_state;
 
 always @(posedge clk) begin
@@ -34,7 +34,7 @@ always @(posedge clk) begin
 
         if (ff2 != db_state) begin
             db_cnt <= db_cnt + 1;
-            if (db_cnt == 4'hF) begin   // stable for 16 cycles
+            if (db_cnt == 3'd3) begin   // stable for 4 cycles
                 db_state <= ff2;
                 db_cnt   <= 0;
                 // falling edge = car interrupts beam (IR: 1→0)
